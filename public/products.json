@@ -1,0 +1,74 @@
+[
+        {
+            "category":1,
+            "name":"Lápiz",
+            "price":0.7,
+            "description":"Lápices HB con revestimiento de madera, lápiz de dibujo, lápiz de madera simple, núcleo negro de madera cruda no tóxico, para niños",
+            "imgUrl":"https://m.media-amazon.com/images/I/618iDnJoMaL._AC_SX569_.jpg",
+            "stock": 20
+        },
+        {
+            "category":1,
+            "name":"Regla",
+            "price":1.92,
+            "description":"Westcott regla de acrílico transparente, de 12 pulgadas",
+            "imgUrl":"https://m.media-amazon.com/images/I/619xNygf2aL._AC_SX425_.jpg",
+            "stock": 32
+        },
+        {
+            "category":1,
+            "name":"Calculadora científica",
+            "price":13.83,
+            "description":"Calculadora científica Texas Instruments TI-30 X IIS 2-Linea, Negro",
+            "imgUrl":"https://m.media-amazon.com/images/I/7106ob3ATYL._AC_SX425_.jpg",
+            "stock": 10
+        },
+        {
+            "category":2,
+            "name":"Mochila",
+            "price":25.49,
+            "description":"Mochila de viaje para ordenador portátil. Mochila universitaria extragrande, antirrobos, para hombres y mujeres con puerto de carga USB, Negro 17",
+            "imgUrl":"https://m.media-amazon.com/images/I/61DlXYCISmL._AC_SX679_.jpg",
+            "stock": 12
+        },
+        {
+            "category":2,
+            "name":"Compás",
+            "price":8.99,
+            "description":"Brújula profesional para geometría, plomo extra, brújula de metal, brújula, brújula de dibujo, brújula de dibujo, brújula para estudiantes, brújula para carpintería, geometría de brújula",
+            "imgUrl":"https://m.media-amazon.com/images/I/71pGOmi1v7L._AC_SX425_.jpg",
+            "stock": 30
+        },
+        {
+            "category":2,
+            "name":"Sacapuntas",
+            "price":18.97,
+            "description":"Saca puntas eléctrico compacto de escritorio Stanley Bostitch, Negro",
+            "imgUrl":"https://m.media-amazon.com/images/I/71Q0uYr1IvL._AC_SX425_.jpg",
+            "stock": 17
+        },
+        {
+            "category":3,
+            "name":"Marcadores x16",
+            "price":8.99,
+            "description":"Marcadores de borrado en seco, Shuttle Art de 16 colores, marcadores de pizarra blanca, marcadores de borrado en seco de punta fina para niños, perfectos para escribir en pizarras blancas, tablas de borrado en seco, espejos, calendario, suministros escolares de oficina",
+            "imgUrl":"https://m.media-amazon.com/images/I/817PHwDzeqL._AC_SX425_.jpg",
+            "stock": 22
+        },
+        {
+            "category":3,
+            "name":"Bolígrafos de colores x10",
+            "price":4.69,
+            "description":"BIC Cristal Bolígrafos de Colores, Multicolor, Punta Ancha (1,6mm), Material Oficina, Blíster de 10 Bolis",
+            "imgUrl":"https://m.media-amazon.com/images/I/71HwjjpMz-L._AC_SX425_.jpg",
+            "stock": 50
+        },
+        {
+            "category":3,
+            "name":"Lápices de colores x36",
+            "price":13.53,
+            "description":"Caja metálica 36 lápices de colores con mina grande Ø3,5 mm 213, multicolor",
+            "imgUrl":"https://m.media-amazon.com/images/I/81kjqsYXrQL._AC_SX425_.jpg",
+            "stock": 28
+        }
+    ]
