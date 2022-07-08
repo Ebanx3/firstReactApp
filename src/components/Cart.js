@@ -19,11 +19,11 @@ const Cart = () =>{
     return(
         <div className="cart">
             {carritoVacio ? <h2 className="carritoVacio">Carrito vacío vuelve a inicio para ver los productos</h2> : <CartContainer/>}
-            {carritoVacio ? <Link className="backIndexBtn" to='/'>Volver a inicio</Link> : <></>}
             <div className="cartInfo">
                 <span>Total : {cartContext.precioTotal}</span>
                 <a href="#" onClick={vaciarCart}><span className="material-symbols-outlined">delete</span></a>
             </div>
+            {carritoVacio ? <Link className="backIndexBtn" to='/'>Volver a inicio</Link> : <Link className="backIndexBtn" to="/checkout">Terminar compra</Link>}
         </div>
     )
 }

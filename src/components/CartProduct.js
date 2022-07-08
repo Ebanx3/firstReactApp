@@ -11,6 +11,7 @@ const CartProduct = ({ item }) => {
     
     return (
         <div className="cartProduct">
+            <img src={item.imgUrl}/>
             <span>{item.name}</span>
             <span>Precio: {item.price}</span>
             <span>Cantidad: {item.cant}</span>
