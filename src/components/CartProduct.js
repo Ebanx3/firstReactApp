@@ -11,11 +11,11 @@ const CartProduct = ({ item }) => {
     
     return (
         <div className="cartProduct">
-            <img src={item.imgUrl}/>
+            <img src={item.imgUrl} alt={item.name}/>
             <span>{item.name}</span>
             <span>Precio: {item.price}</span>
             <span>Cantidad: {item.cant}</span>
-            <a href="#" onClick={eliminarProd}><span class="material-symbols-outlined">delete</span></a>
+            <a href="" onClick={eliminarProd}><span className="material-symbols-outlined">delete</span></a>
         </div>)
 }
 

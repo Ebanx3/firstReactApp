@@ -3,12 +3,12 @@ import { collectionOrdenes } from '../firebase';
 import { addDoc, serverTimestamp } from 'firebase/firestore';
 import { contexto } from '../context';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Checkout = () => {
 
     const [compraTerminada, setCompraTerminada] = useState(false);
-    const nav = useNavigate();
+    const [idCompra, setIdCompra ] = useState("");
     const context = useContext(contexto);
 
     const checkOutFunc = (e) => {
@@ -34,12 +34,18 @@ const Checkout = () => {
             total: context.precioTotal
         }
 
-        addDoc(collectionOrdenes, ordenInfo).then(res => setCompraTerminada(true)).catch(error => console.log(error))
+        addDoc(collectionOrdenes, ordenInfo).then(res => {
+            setCompraTerminada(true)
+            setIdCompra(res.id)
+        }).catch(error => console.log(error))
     }
 
     if(compraTerminada){
         context.vaciarCarrito();
-        nav('/');
+        return(<div className='checkOutEnd'>
+            <h2>Compra terminada, el código de tu orden es : <b>{idCompra}</b></h2>
+            <Link to="/" className='backIndexBtn'><span>Vuelve al inicio</span></Link>
+        </div>)
     }
 
     return (

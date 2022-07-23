@@ -336,6 +336,13 @@
     text-align: center;
 }
 
+.checkOutEnd {
+    display: flex;
+    flex-direction: column;
+    height: 30vh ;
+    margin: 5vh auto;
+}
+
 @media screen and(max-width: 425px){
     .main, body{
         width: 100%;
