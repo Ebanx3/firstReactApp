@@ -26,4 +26,4 @@ npm start
 ## [Link Netlify](https://melodic-bonbon-094457.netlify.app)
 * * *
 ## GIF previsualización del sitio
-![Previsualización del sitio](https://i.ibb.co/vXQsQS2/ecommerce-React.gif)
+![Previsualización del sitio](https://i.imgur.com/R7SjBi7.gif)
